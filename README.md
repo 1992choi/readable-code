@@ -70,23 +70,23 @@
 - 보통의 조건문은 앞서 존재하고 있는 조건을 기억하고 있어야한다. 이는 뇌 메모리를 적게 쓰자는 취지에서 벗어난다.
   - ```java
     if (조건1) {
-        // ...
+        doSomething1();
     } else if (조건2) {
-        // ...
+        doSomething2();
     } else {
-        // ...
+        doSomething3();
     }
     ```
 - Early return을 사용한다면 한 번에 하나의 조건만 신경쓰면되므로 뇌 메모리를 적게 쓸 수 있다.
   - ```java
     if (조건1) {
-        // ...
+        doSomething1();
         return;
     }
     if (조건2) {
-        // ...
+        doSomething2();
         return;
     }
     
-    return;
+    doSomething3();
     ```
