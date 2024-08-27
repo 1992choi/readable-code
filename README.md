@@ -182,6 +182,8 @@
     - 기존 코드의 변경 없이, 시스템의 기능을 확장할 수 있어야 한다는 개념이다.
     - 추상화와 다형성을 활용해서 OCP를 지킬 수 있다.
   - LSP(Liskov Substitution Principle)
+    - 상속 구조에서 부모 클래스의 인스턴스를 자식 클래스의 인스턴스로 치환할 수 있어야 한다.
+    - LSP를 위반하면, 상속 클래스를 사용할 때 오동작, 예상 밖의 예외가 발생하거나, 이를 방지하기 위한 불필요한 타입 체크가 동반될 수 있다.
   - ISP(Interface Segregation Principle)
   - DIP(Dependency Inversion Principle)
 
