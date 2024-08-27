@@ -178,6 +178,9 @@
     - 관심사 분리를 통해 하나의 객체는 하나의 책임만 가지도록 설계한다.
     - SRP를 지키게 되면 자연스레 높은 응집도와 낮은 결합도를 갖게된다. 
   - OCP(Open-Closed Principle)
+    - 확장에는 열려 있고, 수정에는 닫혀 있어야 한다.
+    - 기존 코드의 변경 없이, 시스템의 기능을 확장할 수 있어야 한다는 개념이다.
+    - 추상화와 다형성을 활용해서 OCP를 지킬 수 있다.
   - LSP(Liskov Substitution Principle)
   - ISP(Interface Segregation Principle)
   - DIP(Dependency Inversion Principle)
