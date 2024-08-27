@@ -171,10 +171,16 @@
     - 데이터는 불변이 최고이므로 가능한 Setter 사용을 지양하고, 외부에서 데이터 변경을 요청하는 경우 set~ 보다는 update~의 형태로 의도가 있는 네이밍을 활용한다.
     - Getter는 처음부터 추가하지 않고, 사용 시점에 추가한다.
 
-
-
-
-
+### SOLID
+- 객체 지향 설계를 더 유연한 형태로 만들 수 있는 원칙
+  - SRP(Single Responsibility Principle)
+    - 하나의 클래스는 단 한 가지의 변경 이유만을 가져야 한다.
+    - 관심사 분리를 통해 하나의 객체는 하나의 책임만 가지도록 설계한다.
+    - SRP를 지키게 되면 자연스레 높은 응집도와 낮은 결합도를 갖게된다. 
+  - OCP(Open-Closed Principle)
+  - LSP(Liskov Substitution Principle)
+  - ISP(Interface Segregation Principle)
+  - DIP(Dependency Inversion Principle)
 
 
 
